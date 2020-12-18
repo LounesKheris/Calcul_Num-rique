@@ -22,7 +22,7 @@ TPDIRSRC=$(TPDIR)/src
 
 #
 # -- librairies
-LIBS=-llapacke -lblas -lm
+LIBS=-llapacke -lcblas -lm
 
 # -- Include directories
 INCLBLASLAPACK= -I /usr/include
